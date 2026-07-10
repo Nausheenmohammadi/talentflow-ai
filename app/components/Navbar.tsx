@@ -1,28 +1,20 @@
 export default function Navbar() {
   return (
-    <nav
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-        padding: "20px 60px",
-        background: "#0f172a",
-        color: "white",
-      }}
-    >
-      <h2>TalentFlow AI</h2>
+    <nav className="flex justify-between items-center px-8 py-5 bg-white shadow-md">
+      <h1 className="text-2xl font-bold text-blue-600">
+        TalentFlow AI
+      </h1>
 
-      <div
-        style={{
-          display: "flex",
-          gap: "30px",
-        }}
-      >
-        <p>Home</p>
-        <p>Features</p>
-        <p>About</p>
-        <p>Contact</p>
+      <div className="flex gap-8 text-gray-700 font-medium">
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
       </div>
+
+      <button className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition">
+        Login
+      </button>
     </nav>
   );
 }
