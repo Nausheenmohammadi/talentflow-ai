@@ -1,7 +1,15 @@
+import ProfileHeader from "@/app/components/ProfileHeader";
+import ProfileCard from "@/app/components/ProfileCard";
+import ResumeSection from "@/app/components/ResumeSection";
+
 export default function ProfilePage() {
   return (
-    <main className="flex items-center justify-center min-h-screen">
-      <h1 className="text-4xl font-bold">Profile Page</h1>
+    <main className="min-h-screen bg-gray-100 p-8">
+      <ProfileHeader />
+
+      <ProfileCard />
+
+      <ResumeSection />
     </main>
   );
 }
