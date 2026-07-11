@@ -4,7 +4,6 @@ import JobList from "@/app/components/JobList";
 export default function JobsPage() {
   return (
     <main className="min-h-screen bg-gray-100 p-8">
-
       <h1 className="text-4xl font-bold mb-6">
         Find Your Dream Job
       </h1>
@@ -30,7 +29,6 @@ export default function JobsPage() {
       </div>
 
       <JobList />
-
     </main>
   );
 }
