@@ -36,7 +36,7 @@ export default function Hero() {
             href="/jobs"
             className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700"
           >
-            Browse Jobs
+            View Jobs
           </Link>
 
           <Link
@@ -51,6 +51,13 @@ export default function Hero() {
             className="bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600"
           >
             Recruiter Dashboard
+          </Link>
+
+          <Link
+            href="/profile"
+            className="bg-cyan-600 text-white px-6 py-3 rounded-lg hover:bg-cyan-700"
+          >
+            Profile
           </Link>
 
           <Link
